@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="category-selection" class="screen active">
+            <h1>Math Quiz</h1>
+            <div class="categories">
+                <div class="category">
+                    <input type="checkbox" id="arithmetic" value="arithmetic" checked>
+                    <label for="arithmetic">Arithmetic</label>
+                </div>
+                <div class="category">
+                    <input type="checkbox" id="algebra" value="algebra">
+                    <label for="algebra">Algebra</label>
+                </div>
+                <div class="category">
+                    <input type="checkbox" id="geometry" value="geometry">
+                    <label for="geometry">Geometry</label>
+                </div>
+            </div>
+            <button id="start-quiz">Start Quiz</button>
+        </div>
+
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <span id="question-number">Question 1/10</span>
+                <span id="score">Score: 0</span>
+            </div>
+            <div id="question"></div>
+            <div id="answers" class="answers"></div>
+            <button id="next-question" style="display: none;">Next Question</button>
+        </div>
+
+        <div id="results-screen" class="screen">
+            <h1>Quiz Complete!</h1>
+            <div id="final-score"></div>
+            <button id="restart-quiz">Try Again</button>
+        </div>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

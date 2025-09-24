@@ -1,0 +1,46 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "category": "arithmetic",
+      "question": "What is 15 + 27?",
+      "correctAnswer": "42",
+      "incorrectAnswers": ["38", "45", "32"]
+    },
+    {
+      "id": 2,
+      "category": "arithmetic",
+      "question": "What is ¾ of 100?",
+      "correctAnswer": "75",
+      "incorrectAnswers": ["25", "50", "100"]
+    },
+    {
+      "id": 3,
+      "category": "algebra",
+      "question": "Solve for x: 2x + 5 = 15",
+      "correctAnswer": "5",
+      "incorrectAnswers": ["10", "7.5", "3"]
+    },
+    {
+      "id": 4,
+      "category": "algebra",
+      "question": "Simplify: (x² + 3x) - (2x² - x)",
+      "correctAnswer": "-x² + 4x",
+      "incorrectAnswers": ["3x² + 2x", "x² + 4x", "-x² + 2x"]
+    },
+    {
+      "id": 5,
+      "category": "geometry",
+      "question": "What is the area of a circle with radius 5?",
+      "correctAnswer": "25π",
+      "incorrectAnswers": ["10π", "50π", "100π"]
+    },
+    {
+      "id": 6,
+      "category": "geometry",
+      "question": "How many degrees in a triangle?",
+      "correctAnswer": "180",
+      "incorrectAnswers": ["90", "360", "270"]
+    }
+  ]
+}
